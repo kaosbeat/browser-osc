@@ -1,23 +1,26 @@
 {
-	"name": "browser-osc",
-	"description": "Browser based osc controller",
-	"version": "0.1.0",
-	"main": "server.js",
-	"athor": {
-		"name": "Myles Borins",
-		"email": "myles.borins@gmail.com"
-	},
-	"dependencies": {
-		"express": "2.5.9",
-		"node-osc": ">0.1.0",
-		"socket.io": "0.9.5"
-	},
-	"keywords": [
-		"osc",
-		"udp"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/TheAlphaNerd/browser-osc.git"
-	}
+  "name": "browser-osc",
+  "description": "Browser based osc controller",
+  "version": "0.1.0",
+  "main": "server.js",
+  "athor": {
+    "name": "Myles Borins",
+    "email": "myles.borins@gmail.com"
+  },
+  "dependencies": {
+    "express": "2.5.9",
+    "node-osc": ">0.1.0",
+    "socket.io": "0.9.5",
+    "socket.io-client": "~0.9.6",
+    "osc-min": "0.0.5",
+    "jspack": "0.0.1"
+  },
+  "keywords": [
+    "osc",
+    "udp"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TheAlphaNerd/browser-osc.git"
+  }
 }
